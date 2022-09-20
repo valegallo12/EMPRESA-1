@@ -20,7 +20,7 @@ SELECT 25 Nombre,Sueldo FROM Empleado WHERE (Sueldo>600000)ORDER BY Cedula;
 
 SELECT DISTINCT 15 Nombre,id,Cedula FROM Empleado ORDER BY Cedula DESC;
 
-![consulta3]( img/consulta"consulta 3 ")
+![consulta3]( img/consulta "consulta 3 ")
 
 4. entregar los primeros 15 empleados con nombre y cedula cuya ciudad sea BOGOTA. se necesita que los encabezados de las columnas tengan los siguientes titulos
 
