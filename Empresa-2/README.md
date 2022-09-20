@@ -41,5 +41,6 @@ SELECT Nombre,Cedula,Sueldo,Edad FROM Empleado WHERE (Sueldo BETWEEN 800000 AND 
 
 6. realizar una consulta que muestre nombre, cedula y salario de los empleados cuyo nombre comience por la letra c. ordene esta lista por salario en forma descendente 
 
+SELECT Nombre,Cedula,Sueldo FROM Empleado WHERE (Nombre LIKE 'c%') ORDER BY Sueldo DESC;
 
-![consulta6]( img/consulta%205 "consulta 6")
+![consulta6]( img/consulta6 "consulta 6")
